@@ -27,7 +27,7 @@ Most importantly, we aim to bring Vision AI into the modern data stack by standa
 
 Instill Cloud is currently in private alpha, working very closely with early users to build the most effective tool for visual data preparation. With Instill Cloud, you don't have to worry about managing infrastructure, scalability or latency. We provide
 
-- 🧰 SDKs and CLI tools for developers to integrate with our existing data stack in minutes 
+- 🧰 SDKs and CLI tools for developers to integrate with existing data stack in minutes 
 - ✨ console for non developers to start processing visual data without writing any code
 - 😊 premium support from Instill AI team
 
