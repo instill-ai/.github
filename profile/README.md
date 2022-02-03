@@ -14,6 +14,12 @@
     <p>
 </h4>
 
+<h4 align="center">
+    <p>
+        <a href="https://www.instill.tech/get-access"><strong>Get Early Access</strong></a>
+    <p>
+</h4>
+
 Instill AI is on a mission to make Vision AI highly accessible to everyone. We build tools to streamline the process of distilling the value of unstructured visual data across all stakeholders in the modern data stack, to ultimately benefit all size organisations. Read our blog post [Why Instill AI exists](https://blog.instill.tech/why-instill-ai-exists/) on what is missing in the modern data stack and how we are going to fix it for more details.
 
 ## What are we building?
