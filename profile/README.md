@@ -2,10 +2,6 @@
   <img src="https://raw.githubusercontent.com/instill-ai/.github/main/img/instill.png" alt="Instill AI - Where Visual Data Preparation Made for All" />
 </p>
 
-<h2 align="center">
-    <p>Instill AI - Where Visual Data Preparation Made for All</p>
-</h2>
-
 <h4 align="center">
     <p>
         <a href="https://www.instill.tech">Website</a> |
