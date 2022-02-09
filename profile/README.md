@@ -1,22 +1,17 @@
-<p align="center">
+<h1 align="center">
   <img src="https://raw.githubusercontent.com/instill-ai/.github/main/img/instill-ai.png" alt="Instill AI - Where Visual Data Preparation Made for All" />
-</p>
+</h1>
 
 <h4 align="center">
-    <p>
-        <a href="https://www.instill.tech">Website</a> |
-        <a href="https://discord.gg/sevxWsqpGh">Community</a> |
-        <a href="https://blog.instill.tech">Blog</a>
-    <p>
+    <a href="https://www.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme">Website</a> |
+    <a href="https://discord.gg/sevxWsqpGh">Community</a> |
+    <a href="https://blog.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme">Blog</a><br/><br/>
+    <a href="https://www.instill.tech/get-access/?utm_source=github&utm_medium=banner&utm_campaign=org_readme"><strong>Get Early Access</strong></a>
 </h4>
 
-<h4 align="center">
-    <p>
-        <a href="https://www.instill.tech/get-access"><strong>Get Early Access</strong></a>
-    <p>
-</h4>
+<br/>
 
-Instill AI is on a mission to make Vision AI highly accessible to everyone. We build tools to streamline the process of distilling the value of unstructured visual data across all stakeholders in the modern data stack, to ultimately benefit all size organisations. Read our blog post [Why Instill AI exists](https://blog.instill.tech/why-instill-ai-exists/) on what is missing in the modern data stack and how we are going to fix it for more details.
+Instill AI is on a mission to make Vision AI highly accessible to everyone. We build tools to streamline the process of distilling the value of unstructured visual data across all stakeholders in the modern data stack, to ultimately benefit all size organisations. Read our blog post [Why Instill AI exists](https://blog.instill.tech/why-instill-ai-exists/?utm_source=github&utm_medium=banner&utm_campaign=org_readme) on what is missing in the modern data stack and how we are going to fix it for more details.
 
 ## What are we building?
 
