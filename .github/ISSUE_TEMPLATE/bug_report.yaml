@@ -1,0 +1,86 @@
+name: 🐞 Bug report
+description: File a bug
+title: "[Bug] <title>"
+labels: ["🐛 bug", "need-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file out this bug report 🙌
+  - type: checkboxes
+    attributes:
+      label: Is There an Existing Issue for This?
+      description: Please search to see if an issue already exists for the bug you encountered.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      description: What Instill project are you seeing the problem on?
+      multiple: false
+      options:
+        - Instill VDP
+        - Instill Model
+        - Instill Base
+        - I am not sure
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the Bug
+      description: A concise description of what you're experiencing.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. ...
+
+        Any other relevant information. For example, why do you consider this a bug and what did you expect to happen instead?
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Actual Result
+      description: What's happening right now that is different from what is expected.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Technical Details
+      description: |
+        examples:
+          - **Project version**: 0.13.0-alpha
+          - **Service name**: `pipeline-backend`
+          - **Service name**: 0.14.1-alpha
+          - **OS**: Linux
+          - **Browser**: Chrome
+      value: |
+        - **Project version**:
+        - **Service name**:
+        - **Service name**:
+        - **OS**:
+        - **Browser**:
+      render: markdown
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Anything Else?
+      description: |
+        Links? References? Anything that will give us more context about the issue you are encountering!
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
