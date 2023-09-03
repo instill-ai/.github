@@ -1,0 +1,27 @@
+name: Add Issue or PR to GitHub Project
+
+on:
+  workflow_call:
+    inputs:
+      organization:
+        description: "The name of the organization which the Project belongs to"
+        default: "instill-ai"
+        required: false
+        type: string
+      project_number:
+        description: "The Project number"
+        required: true
+        type: number
+    secrets:
+      botGitHubToken:
+        description: "A personal access token token (classic) with project and repo scopes"
+        required: true
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.5
+        with:
+          project-url: ${{ format('https://github.com/orgs/{0}/projects/{1}', inputs.organization, inputs.project_number) }}
+          github-token: ${{ secrets.botGitHubToken }}
