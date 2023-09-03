@@ -21,7 +21,7 @@ jobs:
   add-to-project:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v0.5
+      - uses: "actions/add-to-project@v0.5.0"
         with:
           project-url: ${{ format('https://github.com/orgs/{0}/projects/{1}', inputs.organization, inputs.project_number) }}
           github-token: ${{ secrets.botGitHubToken }}
