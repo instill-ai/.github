@@ -1,37 +1,70 @@
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/instill-ai/.github/main/img/vdp.svg" alt="Versatile Data Pipeline: open-source unstructured data ETL">
+<h1 align="center"> 
+  👋 Welcome!
 </h1>
-
 <h4 align="center">
-    <a href="https://www.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme">Website</a> |
-    <a href="https://discord.gg/sevxWsqpGh">Community</a> |
-    <a href="https://blog.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme">Blog</a><br/><br/>
-    <a href="https://www.instill.tech/get-access/?utm_source=github&utm_medium=banner&utm_campaign=org_readme"><strong>Get Early Access</strong></a>
+    <a href="https://www.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme">Website</a> ▪︎
+    <a href="https://www.instill.tech/blog/?utm_source=github&utm_medium=banner&utm_campaign=org_readme">Blog</a> ▪︎
+    <a href="https://discord.gg/sevxWsqpGh">Discord</a> ▪︎
+    <a href="https://twitter.com/instill_tech">Twitter</a>
+    <br/><br/>
 </h4>
 
-<br/>
+[Instill AI](https://www.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme) is on a mission to make AI highly accessible to everyone. We've been hard at work developing tools that simplify the process of unlocking value from unstructured data across all layers of the modern data stack. This means that organizations of all sizes can benefit from our endeavors. For a deeper dive into our vision, check out our blog post on [Why Instill AI exists](https://blog.instill.tech/why-instill-ai-exists/?utm_source=github&utm_medium=banner&utm_campaign=org_readme).
 
-Instill AI is on a mission to make AI highly accessible to everyone. We build tools to streamline the process of distilling the value of unstructured data across all stakeholders in the modern data stack, to ultimately benefit all-size organisations. Read our blog post [Why Instill AI exists](https://blog.instill.tech/why-instill-ai-exists/?utm_source=github&utm_medium=banner&utm_campaign=org_readme) on what is missing in the modern data stack and how we are going to fix it for more details.
+## What Are We Building?
 
-## What are we building?
+We're dedicated to bringing AI into the modern data stack by standardizing unstructured data ETL. Our tools are built on an open and maintainable framework, designed to empower communities to benefit and actively engage.
 
-Our tools are built for the modern AI team to reduce team silo, decouple work dependency between different roles to increase work efficiency and the ability to be self-service. Developers with various backgrounds can benefit from our tools in different ways:
+### Instill Core
 
-- **AI/ML Engineers**: automatic model optimization, simplified and managed model serving, and tools for production model monitoring
-- **AI/ML Researchers**: easier access to unstructured data for production experimentation and benchmarking
-- **Data Engineers**: low-code for integrating with various data sources and destinations, and easier data pipeline management
-- **Data Scientists**: richer insights from unstructured data to uncover unknown patterns and produce better analysis
+**Welcome to Instill Core** – where the world of AI-first applications comes alive. Instill Core lays the foundation for AI-powered pipelines designed to handle unstructured data. Within this ecosystem, you'll find source-available projects that enable you to construct robust AI pipelines. Allow these tools to elevate your data processing capabilities, transforming raw data into actionable insights. To dive into the potential of Instill Core, head over to our [documentation](https://www.instill.tech/docs).
 
-Most importantly, we aim to bring AI into the modern data stack by standardising unstructured data ETL. Our tools are built within an open and maintainable framework, making it possible for communities to benefit and participate.
+<details>
+  <summary><b>💧 <a href="https://github.com/instill-ai/vdp" target="_blank">Instill VDP</a>: Your Unstructured Data Solution</b></summary><br>
 
-## Instill Cloud
+  <div align="center">
+    <img src="https://raw.githubusercontent.com/instill-ai/.github/main/img/vdp.svg" alt="Versatile Data Pipeline: open-source unstructured data ETL">
+  </div>
+  
+  <br/>
+  
+  **Instill VDP**, or **VDP (Versatile Data Pipeline)**, represents a comprehensive unstructured data infrastructure. Its purpose is to simplify the journey of processing unstructured data from start to finish:
 
-Instill Cloud is currently in private alpha, working very closely with early users to build the most effective tool for unstructured data ETL. With Instill Cloud, you don't have to worry about managing infrastructure, scalability or latency. We provide
+  - **Extract:** Gather unstructured data from diverse sources, including AI applications, cloud/on-prem storage, and IoT devices.
+  - **Transform:** Utilize AI models to convert raw data into meaningful insights and actionable formats.
+  - **Load:** Efficiently move processed data to warehouses, applications, or other destinations.
 
-- 🧰 SDKs and CLI tools for developers to integrate with existing data stack in minutes 
-- ✨ console for non developers to start processing unstructured data without writing any code
-- 😊 premium support from Instill AI team
+  Embracing VDP is straightforward, whether you opt for Instill Cloud deployment or self-hosting via Instill Core. Consult our comprehensive [documentation](https://www.instill.tech/docs/core/vdp/deployment/overview) to delve into VDP deployment.
+</details>
 
-## Join our community
+<details>
+  <summary><b>⚗️ <a href="https://github.com/instill-ai/model" target="_blank">Instill Model</a>: Pioneering ModelOps</b></summary><br>
 
-🚀 If you are interested in what we can provide, please join our [community](https://discord.gg/sevxWsqpGh) to exchange ideas of unstructured data processing, AI and MLOps.
+  **Instill Model**, or simply **Model**, emerges as an advanced ModelOps platform. Here, the focus is on empowering you to seamlessly import and serve Machine Learning (ML) models for inference purposes. Like other Instill Core products, Model's source code is available for your exploration.
+
+</details>
+
+<details>
+  <summary><b>🗿 <a href="https://github.com/instill-ai/base" target="_blank">Instill Base</a>: Essential Services for VDP and Model</b></summary><br>
+
+  **Instill Base**, or **Base**, serves as the bedrock upon which Instill projects thrive. Essential services such as user management servers, databases, and third-party observability tools find their home here. Base plays a pivotal role in facilitating the seamless launch of both VDP and Model. Additionally, it introduces [Console](https://github.com/instill-ai/console), a user-friendly web-based UI application that enhances accessibility and usability across VDP and Model.
+
+</details>
+
+We invite you to engage, contribute, and collaborate within the exciting Instill Core Projects. Your journey starts here! 🙌
+
+### Instill Cloud
+
+If self-hosting isn't your preference, don't worry! We've got you covered with **☁️ [Instill Cloud](https://console.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme)**! It's a fully-managed public cloud service that grants you access to all the fantastic features of Instill Core, without the hassle of managing infrastructure. We're currently in the exciting Open Alpha testing phase, and all features are FREE during this period! 🎉
+
+### No-/Low-code Access & Support
+
+To dive into Instill Core and Instill Cloud, we provide:
+
+- ✨ [Console](https://github.com/instill-ai/console) for non-developers, empowering them to dive into AI applications and process unstructured data without any coding.
+- 🧰 [CLI](https://github.com/instill-ai/cli) and SDKs ([Python SDK](https://github.com/instill-ai/python-sdk) with more SDKs in the pipeline) for developers to seamlessly integrate with their existing data stack in minutes. 
+- 🙌 Join our vibrant [Discord](https://discord.gg/sevxWsqpGh) server to exchange ideas about unstructured data processing, AI, MLOps, and get support from the Instill AI team. We're here to support you every step of the way!
+
+### Be Part of Our Community and Make a Difference
+
+🚀 We strongly believe in the power of community collaboration and deeply value your contributions. Head over to our [Community](https://github.com/instill-ai/community) repository, the central hub for discussing our open-source projects, raising issues, and sharing your brilliant ideas.
