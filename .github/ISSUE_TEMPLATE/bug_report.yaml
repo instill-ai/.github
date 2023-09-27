@@ -64,13 +64,13 @@ body:
         examples:
           - **Project version**: 0.13.0-alpha
           - **Service name**: `pipeline-backend`
-          - **Service name**: 0.14.1-alpha
+          - **Service version**: 0.14.1-alpha
           - **OS**: Linux
           - **Browser**: Chrome
       value: |
         - **Project version**:
         - **Service name**:
-        - **Service name**:
+        - **Service version**:
         - **OS**:
         - **Browser**:
       render: markdown
