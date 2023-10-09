@@ -24,6 +24,10 @@ body:
         - Instill VDP
         - Instill Model
         - Instill Base
+        - Instill Console
+        - Instill CLI
+        - Instill SDK
+        - Instill Website
         - I am not sure
     validations:
       required: true
