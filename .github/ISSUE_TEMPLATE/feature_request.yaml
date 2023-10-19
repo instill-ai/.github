@@ -21,9 +21,10 @@ body:
       description: What Instill project are you seeking to apply this feature to?
       multiple: false
       options:
+        - Instill Protocol
+        - Instill Core
         - Instill VDP
         - Instill Model
-        - Instill Base
         - Instill Console
         - Instill CLI
         - Instill SDK

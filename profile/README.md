@@ -45,9 +45,9 @@ We're dedicated to bringing AI into the modern data stack by standardizing unstr
 </details>
 
 <details>
-  <summary><b>🗿 <a href="https://github.com/instill-ai/base" target="_blank">Instill Base</a>: Essential Services for VDP and Model</b></summary><br>
+  <summary><b>🔮 <a href="https://github.com/instill-ai/core" target="_blank">Instill Core</a>: Essential Services for VDP and Model</b></summary><br>
 
-  **Instill Base**, or **Base**, serves as the bedrock upon which Instill projects thrive. Essential services such as user management servers, databases, and third-party observability tools find their home here. Base plays a pivotal role in facilitating the seamless launch of both VDP and Model. Additionally, it introduces [Console](https://github.com/instill-ai/console), a user-friendly web-based UI application that enhances accessibility and usability across VDP and Model.
+  **Instill Core**, or **Core**, serves as the bedrock upon which Instill projects thrive. Essential services such as user management servers, databases, and third-party observability tools find their home here. Core plays a pivotal role in facilitating the seamless launch of both VDP and Model.
 
 </details>
 

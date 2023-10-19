@@ -21,9 +21,10 @@ body:
       description: What Instill project are you seeing the problem on?
       multiple: false
       options:
+        - Instill Protocol
+        - Instill Core
         - Instill VDP
         - Instill Model
-        - Instill Base
         - Instill Console
         - Instill CLI
         - Instill SDK
@@ -77,7 +78,6 @@ body:
         - **Service version**:
         - **OS**:
         - **Browser**:
-      render: markdown
     validations:
       required: false
   - type: textarea

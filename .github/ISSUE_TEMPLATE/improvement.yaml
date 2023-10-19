@@ -21,9 +21,10 @@ body:
       description: Which Instill project are you aiming to enhance??
       multiple: false
       options:
+        - Instill Protocol
+        - Instill Core
         - Instill VDP
         - Instill Model
-        - Instill Base
         - Instill Console
         - Instill CLI
         - Instill SDK
