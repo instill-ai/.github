@@ -5,7 +5,7 @@
     <a href="https://www.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme">Website</a> ▪︎
     <a href="https://www.instill.tech/blog/?utm_source=github&utm_medium=banner&utm_campaign=org_readme">Blog</a> ▪︎
     <a href="https://discord.gg/sevxWsqpGh">Discord</a> ▪︎
-    <a href="https://twitter.com/instill_tech">Twitter</a>
+    <a href="https://x.com/instill_tech">X</a>
     <br/><br/>
 </h4>
 
