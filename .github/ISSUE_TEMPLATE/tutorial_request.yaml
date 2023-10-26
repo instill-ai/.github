@@ -1,0 +1,30 @@
+name: 📖 Tutorial Request
+description: Request a tutorial
+title: "[Tutorial] <title>"
+labels: ["tutorial", "documentation", "need-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file out this feature request 🙌
+  - type: checkboxes
+    attributes:
+      label: Is There an Existing Issue for This?
+      description: Please search to see if an issue already exists for the feature you requested.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: textarea
+    attributes:
+      label: Describe Your Proposed Tutorial
+      description: Please provide a brief description of the tutorial you'd like to request.
+      placeholder: Write your answer here.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Highlight the Benefits
+      description: Explain why you believe this tutorial would be valuable or beneficial.
+      placeholder: Write your answer here.
+    validations:
+      required: false
