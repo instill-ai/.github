@@ -1,7 +1,7 @@
 name: 🧹 Improvement report
 description: Suggest an improvement
 title: "[Improvement] <title>"
-labels: ["🧹 improvement", "need-triage"]
+labels: ["improvement", "need-triage"]
 body:
   - type: markdown
     attributes:
