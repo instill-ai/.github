@@ -15,9 +15,9 @@
 
 We're dedicated to bringing AI into the modern data stack by solving unstructured data ETL. Our tools are built on an open and maintainable framework, designed to empower communities to benefit and actively engage.
 
-### Instill Core: Open-source Unstructured Data Infrastructure Stack
+### Instill Core: Open-source Unstructured Data ETL Stack
 
-Explore our open-source unstructured data infrastructure stack, comprising a collection of source-available projects designed to streamline every aspect of building versatile AI features with unstructured data. Dive into the potential in our [documentation](https://www.instill.tech/docs).
+Explore the open-source unstructured data ETL stack, comprising a collection of source-available projects designed to streamline every aspect of building versatile AI features with unstructured data. Dive into the potential in our [documentation](https://www.instill.tech/docs).
 
 <details>
   <summary><b>🔮 <a href="https://github.com/instill-ai/core" target="_blank">Instill Core</a>: The foundation for self-hosting Instill VDP and Instill Model</b></summary><br>
@@ -28,7 +28,7 @@ Explore our open-source unstructured data infrastructure stack, comprising a col
 <details>
   <summary><b>💧 <a href="https://github.com/instill-ai/vdp" target="_blank">Instill VDP</a>: AI pipeline builder for unstructured data</b></summary><br>
   
-  **Instill VDP**, or **VDP (Versatile Data Pipeline)**, represents a comprehensive unstructured data infrastructure. Its purpose is to simplify the journey of processing unstructured data from start to finish:
+  **Instill VDP**, or **VDP (Versatile Data Pipeline)**, represents a comprehensive unstructured data ETL. Its purpose is to simplify the journey of processing unstructured data from start to finish:
 
   - **Extract:** Gather unstructured data from diverse sources, including AI applications, cloud/on-prem storage, and IoT devices.
   - **Transform:** Utilize AI models to convert raw data into meaningful insights and actionable formats.
@@ -45,7 +45,7 @@ Explore our open-source unstructured data infrastructure stack, comprising a col
 
 ### Instill Cloud
 
-Not quite into self-hosting? We've got you covered with **☁️ [Instill Cloud](https://console.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme)**! It's a fully-managed public cloud service that grants you access to all the fantastic features of the open-source unstructured data infrastructure stack, without the hassle of managing infrastructure. We're currently in the exciting Open Alpha testing phase, and all features are FREE during this period! 🎉
+Not quite into self-hosting? We've got you covered with **☁️ [Instill Cloud](https://console.instill.tech/?utm_source=github&utm_medium=banner&utm_campaign=org_readme)**. It's a fully-managed public cloud service that provides you access to all the fantastic features of the unstructured data ETK without the hassle of managing infrastructure.
 
 ### No-Code/Low-Code Access
 
@@ -78,7 +78,7 @@ To dive into Instill Core and Instill Cloud, you have a few options:
   - Stay tuned, as more SDKs are on the way!
 </details>
 
-### Be Part of Our Community and Make a Difference
+### Be Part of Us and Make a Difference
 
 🙌 We strongly believe in the power of community collaboration and deeply value your contributions. 
 
