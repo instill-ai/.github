@@ -17,19 +17,11 @@ body:
   - type: dropdown
     id: project
     attributes:
-      label: Project
-      description: Which Instill project are you aiming to enhance??
-      multiple: false
+      label: Where are you aiming to make improvements?
+      multiple: true
       options:
-        - Instill Protocol
         - Instill Core
-        - Instill VDP
-        - Instill Model
-        - Instill Console
-        - Instill CLI
-        - Instill SDK
-        - Instill Website
-        - I am not sure
+        - Instill Cloud
     validations:
       required: true
   - type: textarea

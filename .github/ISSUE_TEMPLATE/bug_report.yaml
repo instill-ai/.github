@@ -17,19 +17,11 @@ body:
   - type: dropdown
     id: project
     attributes:
-      label: Project
-      description: What Instill project are you seeing the problem on?
-      multiple: false
+      label: Where did you encounter this bug?
+      multiple: true
       options:
-        - Instill Protocol
         - Instill Core
-        - Instill VDP
-        - Instill Model
-        - Instill Console
-        - Instill CLI
-        - Instill SDK
-        - Instill Website
-        - I am not sure
+        - Instill Cloud
     validations:
       required: true
   - type: textarea
@@ -67,17 +59,9 @@ body:
       label: Technical Details
       description: |
         examples:
-          - **Project version**: 0.13.0-alpha
-          - **Service name**: `pipeline-backend`
-          - **Service version**: 0.14.1-alpha
+          - **Instill Core version**: 0.13.0-alpha
           - **OS**: Linux
           - **Browser**: Chrome
-      value: |
-        - **Project version**:
-        - **Service name**:
-        - **Service version**:
-        - **OS**:
-        - **Browser**:
     validations:
       required: false
   - type: textarea
