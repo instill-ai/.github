@@ -22,6 +22,10 @@ body:
       options:
         - Instill Core
         - Instill Cloud
+        - Console
+        - SDK
+        - CLI
+        - Website
     validations:
       required: true
   - type: textarea
