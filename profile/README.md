@@ -17,7 +17,7 @@ We're dedicated to bringing AI into the modern data stack by solving unstructure
 
 ### Instill Core: The Open-source Orchestrator for Data, AI and Pipelines
 
-Explore **[Instill Core](https://github.com/instill-ai/core)**, the open-source orchestrator comprising a collection of source-available projects designed to streamline every aspect of building versatile AI features with unstructured data. Access Instill Core is straightforward, whether you opt for Instill Cloud deployment or self-hosting via Instill Core. Consult our comprehensive [documentation](https://www.instill.tech/docs/latest/core/deployment).
+Explore **[Instill Core](https://github.com/instill-ai/instill-core)**, the open-source orchestrator comprising a collection of source-available projects designed to streamline every aspect of building versatile AI features with unstructured data. Access Instill Core is straightforward, whether you opt for Instill Cloud deployment or self-hosting via Instill Core. Consult our comprehensive [documentation](https://www.instill.tech/docs/latest/core/deployment).
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/instill-ai/.github/main/img/instill-projects.svg" >
