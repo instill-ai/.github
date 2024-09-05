@@ -1,4 +1,4 @@
-name: 🧹 Improvement report
+name: 🧹 Suggest Improvement
 description: Suggest an improvement
 title: "[Improvement] <title>"
 labels: ["improvement", "need-triage"]
@@ -13,6 +13,13 @@ body:
       description: Please search to see if an issue already exists for the improvement you suggested.
       options:
         - label: I have searched the existing issues
+          required: true
+  - type: checkboxes
+    attributes:
+      label: Are you willing to own the issue?
+      description: Please state whether you can implement this or not.
+      options:
+        - label: I can own this issue
           required: true
   - type: dropdown
     id: project
