@@ -1,5 +1,5 @@
-name: 📖 Tutorial Request
-description: Request a tutorial
+name: 📖 Request Tutorial
+description: Request a new tutorial
 title: "[Tutorial] <title>"
 labels: ["tutorial", "documentation", "need-triage"]
 body:
@@ -13,6 +13,13 @@ body:
       description: Please search to see if an issue already exists for the feature you requested.
       options:
         - label: I have searched the existing issues
+          required: true
+  - type: checkboxes
+    attributes:
+      label: Are you willing to own the issue?
+      description: Please state whether you can implement this or not.
+      options:
+        - label: I can own this issue
           required: true
   - type: textarea
     attributes:
