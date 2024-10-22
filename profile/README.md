@@ -43,7 +43,7 @@ Explore **🔮 [Instill Core](https://github.com/instill-ai/instill-core)**, a f
 </details>
 
 <details>
-  <summary><b>💾 Instill Artifact</b> (coming soon) - Data orchestration for unified unstructured data representation</summary>
+  <summary><b>💾 Instill Artifact</b> - Data orchestration for unified unstructured data representation</summary>
 
   <br>
 
