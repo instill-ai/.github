@@ -26,11 +26,11 @@ Explore **🔮 [Instill Core](https://github.com/instill-ai/instill-core)**, a f
 <br> 
 
 <details>
-  <summary><b>💧 Instill VDP</b> - Pipeline orchestration for unstructured data ETL</summary>
+  <summary><b>💧 Instill Pipeline</b> - Pipeline orchestration for unstructured data ETL</summary>
 
   <br>
 
-  **💧 Instill VDP**, also known as **VDP (Versatile Data Pipeline)**, serves as a powerful pipeline orchestration tool tailored to address unstructured data ETL challenges.
+  **💧 Instill Pipeline** serves as a powerful pipeline orchestration tool tailored to address unstructured data ETL challenges.
 
 </details>
 
@@ -51,11 +51,11 @@ Explore **🔮 [Instill Core](https://github.com/instill-ai/instill-core)**, a f
 </details>
 
 <details>
-  <summary><b>⚙️ Instill Component</b> - An extensible integration framework for <b>💧 Instill VDP</b></summary>
+  <summary><b>⚙️ Instill Component</b> - An extensible integration framework for <b>💧 Instill Pipeline</b></summary>
 
   <br>
 
-  **⚙️ Instill Component** enhances **💧 Instill VDP**, unlocking limitless possibilities. Please visit the [component](https://github.com/instill-ai/component) repository for details.
+  **⚙️ Instill Component** enhances **💧 Instill Pipeline**, unlocking limitless possibilities. Please visit the [component](https://github.com/instill-ai/component) repository for details.
 
 </details>
 
