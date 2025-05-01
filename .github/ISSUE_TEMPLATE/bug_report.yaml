@@ -1,26 +1,13 @@
 name: 🐞 Report Bug
 description: File a bug
-title: "[Bug] <title>"
-labels: ["bug", "need-triage"]
+title: "[Bug]"
+type: "bug"
+
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to file out this bug report 🙌
-  - type: checkboxes
-    attributes:
-      label: Is There an Existing Issue for This?
-      description: Please search to see if an issue already exists for the bug you encountered.
-      options:
-        - label: I have searched the existing issues
-          required: true
-  - type: checkboxes
-    attributes:
-      label: Are you willing to own the issue?
-      description: Please state whether you can implement this or not.
-      options:
-        - label: I can own this issue
-          required: true
   - type: dropdown
     id: project
     attributes:
@@ -28,24 +15,20 @@ body:
       multiple: true
       options:
         - Instill Core
-        - Instill Cloud
-        - Console
         - SDK
         - CLI
-        - Website
+      default: 0
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Describe the Bug
+      label: Describe the Bug and steps to reproduce
       description: A concise description of what you're experiencing.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Steps to Reproduce
-      description: Steps to reproduce the behavior.
       placeholder: |
+        ## Description
+        A concise description of what you're experiencing.
+
+        ## Steps to Reproduce
         1. Go to ...
         2. Click on ...
         3. ...

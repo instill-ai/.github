@@ -1,26 +1,12 @@
 name: ✨ Request Feature
 description: Request for a new feature
-title: "[Feature] <title>"
-labels: ["feature", "need-triage"]
+title: "[Feature]"
+type: "feature"
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to file out this feature request 🙌
-  - type: checkboxes
-    attributes:
-      label: Is There an Existing Issue for This?
-      description: Please search to see if an issue already exists for the feature you requested.
-      options:
-        - label: I have searched the existing issues
-          required: true
-  - type: checkboxes
-    attributes:
-      label: Are you willing to own the issue?
-      description: Please state whether you can implement this or not.
-      options:
-        - label: I can own this issue
-          required: true
   - type: dropdown
     id: project
     attributes:
@@ -28,34 +14,23 @@ body:
       multiple: true
       options:
         - Instill Core
-        - Instill Cloud
-        - Console
         - SDK
         - CLI
-        - Website
+      default: 0
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Is your Proposal Related to a Problem?
-      description: Provide a clear and concise description of what the problem is. For example, "I'm always frustrated when..."
-      placeholder: Write your answer here.
+      label: Describe the Problem and Proposed Solution
+      description: Outline how you envision the feature functioning and its potential impact.
+      placeholder: |
+        ## Problem
+        Provide a clear and concise description of what the problem is. For example, "I'm always frustrated when..."
+
+        ## Proposed Feature
+        A concise description of the feature you're proposing and its potential impact.
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: Describe Your Proposed Solution
-      description: Outline how you envision the feature functioning and its potential impact and let us know about other solutions you've tried or researched.
-      placeholder: Write your answer here.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Highlight the Benefits
-      description: Highlight the advantages of implementing this feature.
-      placeholder: Write your answer here.
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Anything Else?

@@ -1,26 +1,12 @@
 name: 🧹 Suggest Improvement
 description: Suggest an improvement
-title: "[Improvement] <title>"
-labels: ["improvement", "need-triage"]
+title: "[Improvement]"
+type: "Improvement"
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to file out this feature improvement report 🙌
-  - type: checkboxes
-    attributes:
-      label: Is There an Existing Issue for This?
-      description: Please search to see if an issue already exists for the improvement you suggested.
-      options:
-        - label: I have searched the existing issues
-          required: true
-  - type: checkboxes
-    attributes:
-      label: Are you willing to own the issue?
-      description: Please state whether you can implement this or not.
-      options:
-        - label: I can own this issue
-          required: true
   - type: dropdown
     id: project
     attributes:
@@ -28,34 +14,23 @@ body:
       multiple: true
       options:
         - Instill Core
-        - Instill Cloud
-        - Console
         - SDK
         - CLI
-        - Website
+      default: 0
     validations:
       required: true
   - type: textarea
     attributes:
-      label: Is your Proposal Related to a Problem?
-      description: Provide a clear and concise description of what the problem is. For example, "I'm always frustrated when..."
-      placeholder: Write your answer here.
+      label: Describe the Problem and Proposed Solution
+      description: Outline how you envision the improvement functioning and its potential impact.
+      placeholder: |
+        ## Problem
+        Provide a clear and concise description of what the problem is. For example, "I'm always frustrated when..."
+
+        ## Proposed Improvement
+        Outline how you envision the improvement functioning and its potential impact.
     validations:
       required: true
-  - type: textarea
-    attributes:
-      label: Describe Your Proposed Improvement
-      description: Elaborate on the specific changes or additions you recommend for improvement.
-      placeholder: Write your answer here.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Highlight the Benefits
-      description: Highlight the advantages of implementing this feature.
-      placeholder: Write your answer here.
-    validations:
-      required: false
   - type: textarea
     attributes:
       label: Anything Else?

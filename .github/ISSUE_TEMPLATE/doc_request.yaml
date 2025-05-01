@@ -1,0 +1,16 @@
+name: 📖 Documentation Request
+description: Request for documentation
+title: "[Documentation]"
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file out this documentation request 🙌
+  - type: textarea
+    attributes:
+      label: Describe the Documentation
+      description: Please provide a brief description of the documentation you'd like to request.
+      placeholder: Provide a clear and concise description of the documentation you'd like to request.
+    validations:
+      required: true
