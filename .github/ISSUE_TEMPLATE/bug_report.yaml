@@ -1,6 +1,7 @@
 name: 🐞 Report Bug
 description: File a bug
 title: "[Bug]"
+labels: ["bug"]
 type: "bug"
 
 body:
