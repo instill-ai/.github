@@ -2,7 +2,7 @@ name: ✨ Request Feature
 description: Request for a new feature
 title: "[Feature]"
 type: "feature"
-labels: ["feature"]
+labels: ["feature", "instill-core"]
 body:
   - type: markdown
     attributes:

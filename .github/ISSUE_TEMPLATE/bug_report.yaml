@@ -1,7 +1,7 @@
 name: 🐞 Report Bug
 description: File a bug
 title: "[Bug]"
-labels: ["bug"]
+labels: ["bug", "instill-core"]
 type: "bug"
 
 body:

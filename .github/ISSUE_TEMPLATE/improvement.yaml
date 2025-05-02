@@ -2,7 +2,7 @@ name: 🧹 Suggest Improvement
 description: Suggest an improvement
 title: "[Improvement]"
 type: "Improvement"
-labels: ["improvement"]
+labels: ["improvement", "instill-core"]
 body:
   - type: markdown
     attributes:

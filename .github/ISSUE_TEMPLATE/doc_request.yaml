@@ -1,7 +1,7 @@
 name: 📖 Documentation Request
 description: Request for documentation
 title: "[Documentation]"
-labels: ["documentation"]
+labels: ["documentation", "instill-core"]
 body:
   - type: markdown
     attributes:
