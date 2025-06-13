@@ -25,11 +25,7 @@ body:
       label: Describe the Problem and Proposed Solution
       description: Outline how you envision the improvement functioning and its potential impact.
       placeholder: |
-        ## Problem
-        Provide a clear and concise description of what the problem is. For example, "I'm always frustrated when..."
-
-        ## Proposed Improvement
-        Outline how you envision the improvement functioning and its potential impact.
+        Provide a clear description of the problem you're facing and how you envision the improvement would solve it, including its potential impact.
     validations:
       required: true
   - type: textarea

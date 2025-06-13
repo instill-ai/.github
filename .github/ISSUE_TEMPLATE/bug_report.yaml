@@ -26,15 +26,7 @@ body:
       label: Describe the Bug and steps to reproduce
       description: A concise description of what you're experiencing.
       placeholder: |
-        ## Description
-        A concise description of what you're experiencing.
-
-        ## Steps to Reproduce
-        1. Go to ...
-        2. Click on ...
-        3. ...
-
-        Any other relevant information. For example, why do you consider this a bug and what did you expect to happen instead?
+        Provide a clear description of the bug you're experiencing, including the steps to reproduce it and what you expected to happen instead.
     validations:
       required: false
   - type: textarea
