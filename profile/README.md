@@ -9,17 +9,24 @@
     <br/><br/>
 </h4>
 
-[Instill AI](https://www.instill-ai.com/?utm_source=github&utm_medium=banner&utm_campaign=org_readme) is on a mission to make AI highly accessible to everyone. We've been hard at work developing tools that simplify the process of unlocking value from unstructured data across all layers of the modern data stack. This means that organizations of all sizes can benefit from our efforts.
+[**Instill AI**](https://www.instill-ai.com/?utm_source=github&utm_medium=banner&utm_campaign=org_readme) turns unstructured context — documents, images, videos, audio, and live web pages — into structured, AI-generated insights. Upload files (leases, contracts, reports, sound tracks, video interviews, movies) or paste URLs the system fetches and re-fetches; Instill reads, extracts, and organizes the information so it can be searched, compared, and queried — with source-level citations on every answer.
+See [Why Instill AI Exists](https://www.instill-ai.com/blog/why-instill-ai-exists/?utm_source=github&utm_medium=banner&utm_campaign=org_readme).
 
-For a deeper dive into our vision, check out our blog post on [Why Instill AI Exists](https://www.instill-ai.com/blog/why-instill-ai-exists/?utm_source=github&utm_medium=banner&utm_campaign=org_readme).
+## Two things we offer
 
-## What Are We Building?
+### Instill AI — Fully managed context management platform
 
-[**Instill Core CE (Community Edition)**](https://github.com/instill-ai/instill-core) is the open-source version of **Instill Core**, our modular AI platform.
+The hosted product. [Sign in](https://www.instill-ai.com/?utm_source=github&utm_medium=readme&utm_campaign=org_readme), upload your files or live URLs, and let the platform organize them into **Projects** and **Collections** you can query in chat. **AI Autofill** populates structured columns from each source automatically. Every answer cites the page, timestamp, or coordinate so you can verify against the original — no infrastructure, no setup.
 
-**Instill Core CE** delivers out-of-the-box **Retrieval-Augmented Generation (RAG)** capabilities for your applications. You can build AI-powered data pipelines, integrate retrieval systems, and deploy custom models in a flexible, developer-friendly environment. It’s ideal for teams exploring RAG workflows while maintaining full control over their infrastructure.
+### Instill Core — Self-hosted the building blocks
 
-Our commercial offering, Instill Core, includes everything in CE—plus additional features like an integrated Instill Agent with a chat interface, and full support for managed deployments. Want Instill Core CE as a managed service? [Contact us](mailto:hello@instill-ai.com).
+[**Instill Core CE (Community Edition)**](https://github.com/instill-ai/instill-core) is the open-source version of **Instill Core**, our modular AI platform. It delivers out-of-the-box **Retrieval-Augmented Generation (RAG)** capabilities for your applications. Build AI-powered data pipelines, integrate retrieval systems, and deploy custom models in a flexible, developer-friendly environment — ideal for teams exploring RAG workflows while keeping full control over their infrastructure.
+
+## How they relate
+
+**Instill AI** runs on **Instill Core EE (Enterprise Edition)**, the commercial superset of CE that adds the **Instill Agent** (chat interface, multi-agent orchestration, AI Autofill, context-aware retrieval) along with managed deployment and enterprise-grade operations. CE is the open foundation; EE is the production system; Instill AI is the fully managed service we operate so you don't have to.
+
+→ **Want the full stack without the ops?** [Sign up for Instill AI](https://www.instill-ai.com/?utm_source=github&utm_medium=banner&utm_campaign=org_readme).
 
 <div align="center">
   <picture>
@@ -31,33 +38,39 @@ Our commercial offering, Instill Core, includes everything in CE—plus addition
 
 <br>
 
-🔮 **Instill Core CE** simplifies infrastructure hassle and encompasses these core features:
+## What's in Instill Core CE?
 
-- 💾 [**Artifact**](https://www.instill-ai.dev/docs/artifact/introduction/?utm_source=github&utm_medium=readme&utm_campaign=org_readme): RAG-as-a-service — transform unstructured data (e.g., documents, images, audio, video) into retrieval-ready formats for AI applications.
+🔮 **Instill Core CE** simplifies infrastructure hassle and includes:
+
+- 💾 [**Artifact**](https://www.instill-ai.dev/docs/artifact/introduction/?utm_source=github&utm_medium=readme&utm_campaign=org_readme): RAG-as-a-service — transform unstructured data (documents, images, audio, video) into retrieval-ready formats for AI applications.
 - 💧 [**Pipeline**](https://www.instill-ai.dev/docs/vdp/introduction/?utm_source=github&utm_medium=readme&utm_campaign=org_readme): Build versatile AI-first data pipelines and expose them as production-ready APIs or automated workflows.
   - ⚙️ [**Component**](https://www.instill-ai.dev/docs/component/introduction/?utm_source=github&utm_medium=readme&utm_campaign=org_readme): Assemble modular building blocks to compose pipelines with zero boilerplate.
-- ⚗️ [**Model**](https://www.instill-ai.dev/docs/model/introduction/?utm_source=github&utm_medium=readme&utm_campaign=org_readme): Deploy, monitor, and manage AI models—no GPU infrastructure required.
+- ⚗️ [**Model**](https://www.instill-ai.dev/docs/model/introduction/?utm_source=github&utm_medium=readme&utm_campaign=org_readme): Deploy, monitor, and manage AI models — no GPU infrastructure required.
 
-## Client Access
+## Client access
 
-To access **Instill Core CE**, you have a few options:
+To use **Instill Core CE**, pick whichever client fits:
 
 - <b>📺 <a href="https://github.com/instill-ai/console" target="_blank">Instill Console</a></b>
 - <b>⌨️ <a href="https://github.com/instill-ai/cli" target="_blank">Instill CLI</a></b>
 - <b>📦 Instill SDK</b>:
   - [Python SDK](https://github.com/instill-ai/python-sdk)
   - [TypeScript SDK](https://github.com/instill-ai/typescript-sdk)
-  - Stay tuned, as more SDKs are on the way!
+  - More on the way.
 
-## Be Part of Us and Make a Difference
+If you'd rather skip the operations side entirely, the same capabilities (and the Instill Agent on top) are available as the managed **[Instill AI](https://www.instill-ai.com/?utm_source=github&utm_medium=readme&utm_campaign=org_readme)** product.
+
+## Be part of us and make a difference
 
 We believe in the power of community and open collaboration.
 
-- 🛠 Contribute to [**instill-core**](https://github.com/instill-ai/instill-core)—our central repo for issues, discussions, and improvements.
-- 💬 Join our [**Discord server**](https://discord.gg/sevxWsqpGh) to chat about unstructured data, LLMOps, AI pipelines, and more. We’re here to help and collaborate!
+- 🛠 Contribute to [**instill-core**](https://github.com/instill-ai/instill-core) — our central repo for issues, discussions, and improvements.
+- 💬 Join our [**Discord server**](https://discord.gg/sevxWsqpGh) to chat about unstructured data, LLMOps, AI pipelines, and more. We're here to help and collaborate!
 
-## 🧭 Explore More
+## 🧭 Explore more
 
+- 🚀 [Sign up for Instill AI](https://www.instill-ai.com/?utm_source=github&utm_medium=readme&utm_campaign=org_readme)
 - 📚 [Documentation](https://www.instill-ai.dev/docs/?utm_source=github&utm_medium=readme&utm_campaign=org_readme)
 - 📰 [Blog](https://www.instill-ai.com/blog/?utm_source=github&utm_medium=readme&utm_campaign=org_readme)
 - 💡 [Why Instill AI Exists](https://www.instill-ai.com/blog/why-instill-ai-exists/?utm_source=github&utm_medium=readme&utm_campaign=org_readme)
+- 🛡 [Trust Center](https://trust.instill-ai.com)
